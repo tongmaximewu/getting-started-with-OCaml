@@ -1,22 +1,4 @@
 # getting-started-with-OCaml
-Introduction
-
-Welcome to the Learn-OCaml automated grading platform! Your homeworks will be supplied on this website for the duration of this course. Please use a non-Chrome based browser to access this website (e.g. not using Edge, Chrome, etc.), otherwise your page might loading forever and have unexpected problems.
-
-The questions you will be given in the assignments will generally consist of two parts: writing tests and writing code. For each problem to solve, you will first be asked to write up tests, written as a list of (input, output) pairs. That is, each element of the list has to be a pair, with the first element being a tuple of arguments for the function you want to test, and the second element the answer you expect the function to return on those arguments. You can see some examples of this in the code we have provided for you.
-
-It is important that you design these tests before writing your code: the goal of these exercises is for you to think about the problem and design test cases that represent a sufficient range of possible inputs to thoroughly eliminate any bugs in your implementation. The grader will also tell you whether or not your test cases are correct, so you can use this to make sure that you understand what kind of values your function should return. Until you have written a sufficient set of test cases, we will not show you our own test cases that we are running on your code.
-
-We will evaluate the test cases you create by running the given inputs on slightly incorrect versions of the function in question: we then expect that at least one of the (input, output) pairs you provide will not be matched by the buggy code. If the buggy version passes all of your tests (that is, given those inputs, the buggy version produces outputs identical to the ones given), your test list will be deemed insufficient to expose the bug. This is known in the software development industry as mutation testing.
-
-Following the writing of tests, you will need to implement the function or behaviour in question. This is very straightforward coding. However, remember that you should not rely on your knowledge of other programming languages or paradigms, but instead use what you are taught in this course. For example, you should never be solving the question in a different language and then translating it to OCaml, and you should not be using programming constructs that have not been discussed in class.
-
-The Learn-OCaml platform provides you with the following tools to help you out:
-
-The Compile button runs syntax- and type-checking. If this returns errors, most other functionalities will not work for you. Use the red highlights of the line numbers to see where your errors are.
-The Grade button evaluates your code against our tests and solutions, and returns a grade. Remember to run this at least once to get a grade! The Report tab then explains where you received — or failed to receive — your points.
-The Toplevel tab allows you to interact with OCaml, providing you with a read-eval-print loop (REPL) system. Entering an expression in the bottom text box and pressing Enter will evaluate it. You may do line breaks by pressing Ctrl-Enter (Cmd-Enter on a Mac).
-The Eval code button loads your code into the Toplevel, without you copying and pasting it into the text box. Convenience!
 Question 1 : Fix Me
 
 Three functions have been implemented incorrectly in the provided template code:
